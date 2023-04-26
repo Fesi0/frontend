@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+  }
+  
+  header {
+    background-color: black;
+    color: grey;
+    padding: 10px;
+  }
+  
+  nav {
+    background-color: gray;
+    padding: 10px;
+  }
+  
+  nav ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  nav a {
+    color: black;
+  }
+  
+  section h2 {
+    margin-top: 0;
+  }
