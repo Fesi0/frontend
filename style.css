@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&family=Raleway:ital,wght@0,100;0,500;0,600;0,800;1,500;1,600;1,800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgba(173, 158, 136, 0.432);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-style: italic;
+}
+
+header {
+    background-color: black;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+}
+
+nav {
+    background-color: rgba(173, 158, 136, 0.432);
+    padding: 10px;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+  
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav a {
+    color: black;
+}
+
+.header {
+    height: 400px;
+    background-image: url("https://www.roastmarket.de/magazin/wp-content/uploads/2016/06/Fotolia_58024563_Subscription_Monthly_M_Silvano_Rebai-1344x762.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    font-style: normal;
+    font-family: 'Covered By Your Grace', cursive;
+    font-size: 110px;
+    text-align: center;
+    color: rgb(36, 34, 34);
+    padding-top: 132px;
+}
+
+.main {
+    position: relative;
+}
+
+.left, .right,.center {
+    position: absolute;
+    width: 32%;
+    top: 5px;
+    
+    
+}
+
+.left {
+    left: 5px;
+    text-align: left;
+}
+
+.right {
+    right: 5px;
+    text-align: right;
+}
+
+.center{
+    left: 650px;
+    text-align: center;
+
+}
+
+.left > div, .right > div, .center > div {
+    margin: 100px 0;
+    border-bottom: 1px solid #e4bb97;
+    padding-bottom: 60px;
+    height: 150px;
+    overflow-y: auto;
+}
+
+.main div > p {
+    text-align: justify;
+    color: #454;
+    padding: 0 5px;
+    line-height: 1.5;
+    text-indent: 30px;
+    font-weight: 500;
+}
